@@ -25,7 +25,7 @@ SECRET_KEY = 'h-m2^l(wl5_%-rk)asfemw_%dk2gd*@4ti&dg5fa27f-l5^-g7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quiet-lowlands-94450.herokuapp.com',]
 
 
 # Application definition
@@ -130,8 +130,7 @@ LOGOUT_REDIRECT_URL = 'thanks'
 
 
 
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
-
+STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
 
