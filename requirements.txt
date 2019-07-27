@@ -1,4 +1,4 @@
 django
 django-bootstrap3
 misaka
-dj_databse_url
+dj_database_url
