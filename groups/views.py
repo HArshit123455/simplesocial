@@ -22,9 +22,6 @@ class ListGroups(generic.ListView):
     context_object_name='groups'
     model = Group
 
-
-
-
 class JoinGroup(LoginRequiredMixin, generic.RedirectView):
 
     def get_redirect_url(self, *args, **kwargs):
