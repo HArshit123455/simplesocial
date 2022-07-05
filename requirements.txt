@@ -4,4 +4,4 @@ misaka
 dj_database_url
 whitenoise
 django-braces
-guincorn
+gunicorn
