@@ -23,9 +23,9 @@ TEMP_DIR = os.path.join(BASE_DIR,'templates')
 SECRET_KEY = 'h-m2^l(wl5_%-rk)asfemw_%dk2gd*@4ti&dg5fa27f-l5^-g7'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['quiet-lowlands-94450.herokuapp.com','127.0.0.1','stark-gorge-18326.herokuapp.com']
+ALLOWED_HOSTS = ['quiet-lowlands-94450.herokuapp.com','127.0.0.1','stark-gorge-18326.herokuapp.com','simple-social-django.herokuapp.com/']
 
 
 # Application definition
